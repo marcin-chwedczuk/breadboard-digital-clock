@@ -82,4 +82,40 @@ Text HLabel 1200 3550 2    60   Output ~ 0
 MINUTE_PULSE
 Text HLabel 1200 3750 2    60   Input ~ 0
 SECOND_CLK
+Wire Wire Line
+	3100 2000 3250 2000
+Wire Wire Line
+	3250 2000 3250 3000
+Wire Wire Line
+	3250 3000 900  3000
+Wire Wire Line
+	900  3000 900  3750
+Wire Wire Line
+	900  3750 1200 3750
+Wire Wire Line
+	1200 3550 1050 3550
+Wire Wire Line
+	1050 3550 1050 1550
+Wire Wire Line
+	1050 1550 1250 1550
+Text HLabel 3450 3600 2    60   Input ~ 0
+MINUTE_CLK
+Text HLabel 3450 3900 2    60   Output ~ 0
+HOUR_PULSE
+Wire Wire Line
+	3450 3600 3350 3600
+Wire Wire Line
+	3350 3600 3350 1450
+Wire Wire Line
+	3350 1450 3100 1450
+Wire Wire Line
+	3450 3900 3100 3900
+Wire Wire Line
+	3100 3900 3100 2800
+Wire Wire Line
+	3100 2800 1150 2800
+Wire Wire Line
+	1150 2800 1150 1850
+Wire Wire Line
+	1150 1850 1250 1850
 $EndSCHEMATC

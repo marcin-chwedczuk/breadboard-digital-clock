@@ -50,9 +50,9 @@ U 5F40A35C
 F0 "frequency-and-set-buttons" 60
 F1 "frequency-and-set-buttons.sch" 60
 $EndSheet
-Text HLabel 3100 1450 0    60   Output ~ 0
-MINUTE_CLK
 Text HLabel 3100 1750 0    60   Output ~ 0
+MINUTE_CLK
+Text HLabel 3100 1500 0    60   Output ~ 0
 HOUR_CLK
 Text HLabel 3100 2000 0    60   Output ~ 0
 SECOND_CLK
@@ -98,4 +98,24 @@ Wire Wire Line
 	1050 3550 1050 1550
 Wire Wire Line
 	1050 1550 1250 1550
+Text HLabel 3450 3600 2    60   Input ~ 0
+MINUTE_CLK
+Text HLabel 3450 3900 2    60   Output ~ 0
+HOUR_PULSE
+Wire Wire Line
+	3450 3600 3350 3600
+Wire Wire Line
+	3450 3900 3100 3900
+Wire Wire Line
+	3100 3900 3100 2800
+Wire Wire Line
+	3100 2800 1150 2800
+Wire Wire Line
+	1150 2800 1150 1850
+Wire Wire Line
+	1150 1850 1250 1850
+Wire Wire Line
+	3350 3600 3350 1750
+Wire Wire Line
+	3350 1750 3100 1750
 $EndSCHEMATC

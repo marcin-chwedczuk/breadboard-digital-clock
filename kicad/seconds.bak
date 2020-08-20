@@ -92,8 +92,6 @@ F 3 "" H 1800 2950 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1800 2350 1800 2950
-Text GLabel 1500 4450 0    60   Input ~ 0
-SECOND_CLK
 Wire Wire Line
 	1800 4450 1500 4450
 Wire Wire Line
@@ -120,8 +118,6 @@ Wire Wire Line
 	3250 1800 1800 1800
 Wire Wire Line
 	1800 1800 1800 2200
-Text GLabel 3400 3350 1    60   Output ~ 0
-MINUTE_PULSE
 Wire Wire Line
 	3400 2650 3400 2300
 Wire Wire Line
@@ -230,4 +226,8 @@ F 3 "" H 5600 4800 50  0000 C CNN
 	1    5600 4800
 	1    0    0    -1  
 $EndComp
+Text HLabel 3400 2650 3    60   Output ~ 0
+MINUTE_PULSE
+Text HLabel 1500 4450 0    60   Input ~ 0
+SECOND_CLK
 $EndSCHEMATC
