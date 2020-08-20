@@ -118,4 +118,12 @@ Wire Wire Line
 	3350 3600 3350 1750
 Wire Wire Line
 	3350 1750 3100 1750
+Text HLabel 5900 3600 2    60   Input ~ 0
+HOUR_CLK
+Wire Wire Line
+	5900 3600 5700 3600
+Wire Wire Line
+	5700 3600 5700 1500
+Wire Wire Line
+	5700 1500 3100 1500
 $EndSCHEMATC
